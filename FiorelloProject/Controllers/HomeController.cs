@@ -24,6 +24,10 @@ public class HomeController : Controller
         HomeVM homeVM = new HomeVM();
         homeVM.Sliders = _appDbContext.Sliders.ToList();
         homeVM.SliderDetail = _appDbContext.SliderDetails.FirstOrDefault();
+
+
+        //homeVM.Categories = _appDbContext.Categories.ToList();
+        //homeVM.Products = _appDbContext.Products.ToList();
         return View(homeVM);
     }
 

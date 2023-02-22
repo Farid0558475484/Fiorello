@@ -1,0 +1,289 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Release/net6.0/scopedcss/projectbundle/FiorelloProject.bundle.scp.css",
+      "PackagePath": "staticwebassets/FiorelloProject.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/css/style.css.map",
+      "PackagePath": "staticwebassets/css/style.css.map"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/blog-feature-img-1.jpg",
+      "PackagePath": "staticwebassets/img/blog-feature-img-1.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/blog-feature-img-3.jpg",
+      "PackagePath": "staticwebassets/img/blog-feature-img-3.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/blog-feature-img-4.jpg",
+      "PackagePath": "staticwebassets/img/blog-feature-img-4.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/favicon.png",
+      "PackagePath": "staticwebassets/img/favicon.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/footer-bottom-1.png",
+      "PackagePath": "staticwebassets/img/footer-bottom-1.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h1-custom-icon.png",
+      "PackagePath": "staticwebassets/img/h1-custom-icon.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h2-sign-img.png",
+      "PackagePath": "staticwebassets/img/h2-sign-img.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-background-img.jpg",
+      "PackagePath": "staticwebassets/img/h3-background-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-slider-background-2.jpg",
+      "PackagePath": "staticwebassets/img/h3-slider-background-2.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-slider-background-3.jpg",
+      "PackagePath": "staticwebassets/img/h3-slider-background-3.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-slider-background.jpg",
+      "PackagePath": "staticwebassets/img/h3-slider-background.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-team-img-1.png",
+      "PackagePath": "staticwebassets/img/h3-team-img-1.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-team-img-2.png",
+      "PackagePath": "staticwebassets/img/h3-team-img-2.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-team-img-3.png",
+      "PackagePath": "staticwebassets/img/h3-team-img-3.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-team-img-4.png",
+      "PackagePath": "staticwebassets/img/h3-team-img-4.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/h3-video-img.jpg",
+      "PackagePath": "staticwebassets/img/h3-video-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram1.jpg",
+      "PackagePath": "staticwebassets/img/instagram1.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram2.jpg",
+      "PackagePath": "staticwebassets/img/instagram2.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram3.jpg",
+      "PackagePath": "staticwebassets/img/instagram3.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram4.jpg",
+      "PackagePath": "staticwebassets/img/instagram4.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram5.jpg",
+      "PackagePath": "staticwebassets/img/instagram5.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram6.jpg",
+      "PackagePath": "staticwebassets/img/instagram6.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram7.jpg",
+      "PackagePath": "staticwebassets/img/instagram7.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/instagram8.jpg",
+      "PackagePath": "staticwebassets/img/instagram8.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-10-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-10-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-11-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-11-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-12-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-12-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-13-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-13-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-14-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-14-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-7-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-7-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-8-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-8-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-9-img.jpg",
+      "PackagePath": "staticwebassets/img/shop-9-img.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-category-img-1.jpg",
+      "PackagePath": "staticwebassets/img/shop-category-img-1.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-category-img-2.jpg",
+      "PackagePath": "staticwebassets/img/shop-category-img-2.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-category-img-3.jpg",
+      "PackagePath": "staticwebassets/img/shop-category-img-3.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-category-img-4.jpg",
+      "PackagePath": "staticwebassets/img/shop-category-img-4.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-category-img-5.jpg",
+      "PackagePath": "staticwebassets/img/shop-category-img-5.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/shop-category-img-6.jpg",
+      "PackagePath": "staticwebassets/img/shop-category-img-6.jpg"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/testimonial-img-1.png",
+      "PackagePath": "staticwebassets/img/testimonial-img-1.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/img/testimonial-img-2.png",
+      "PackagePath": "staticwebassets/img/testimonial-img-2.png"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/owlcarousel/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/owlcarousel/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/owlcarousel/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/owlcarousel/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/lib/_common.scss",
+      "PackagePath": "staticwebassets/sass/lib/_common.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/lib/_mixins.scss",
+      "PackagePath": "staticwebassets/sass/lib/_mixins.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/lib/_varibales.scss",
+      "PackagePath": "staticwebassets/sass/lib/_varibales.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_about.scss",
+      "PackagePath": "staticwebassets/sass/sections/_about.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_accordion.scss",
+      "PackagePath": "staticwebassets/sass/sections/_accordion.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_blog.scss",
+      "PackagePath": "staticwebassets/sass/sections/_blog.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_experts.scss",
+      "PackagePath": "staticwebassets/sass/sections/_experts.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_footer.scss",
+      "PackagePath": "staticwebassets/sass/sections/_footer.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_header.scss",
+      "PackagePath": "staticwebassets/sass/sections/_header.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_instagram.scss",
+      "PackagePath": "staticwebassets/sass/sections/_instagram.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_product-list.scss",
+      "PackagePath": "staticwebassets/sass/sections/_product-list.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_product.scss",
+      "PackagePath": "staticwebassets/sass/sections/_product.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_progress.scss",
+      "PackagePath": "staticwebassets/sass/sections/_progress.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_say.scss",
+      "PackagePath": "staticwebassets/sass/sections/_say.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_shop-list.scss",
+      "PackagePath": "staticwebassets/sass/sections/_shop-list.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_slider.scss",
+      "PackagePath": "staticwebassets/sass/sections/_slider.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_subscribe.scss",
+      "PackagePath": "staticwebassets/sass/sections/_subscribe.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/sections/_tab.scss",
+      "PackagePath": "staticwebassets/sass/sections/_tab.scss"
+    },
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/sass/style.scss",
+      "PackagePath": "staticwebassets/sass/style.scss"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.FiorelloProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.build.FiorelloProject.props",
+      "PackagePath": "build\\FiorelloProject.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.FiorelloProject.props",
+      "PackagePath": "buildMultiTargeting\\FiorelloProject.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.FiorelloProject.props",
+      "PackagePath": "buildTransitive\\FiorelloProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
