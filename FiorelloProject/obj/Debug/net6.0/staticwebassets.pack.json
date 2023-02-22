@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/projectbundle/FiorelloProject.bundle.scp.css",
+      "PackagePath": "staticwebassets/FiorelloProject.bundle.scp.css"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.FiorelloProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.FiorelloProject.props",
+      "PackagePath": "build\\FiorelloProject.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FiorelloProject.props",
+      "PackagePath": "buildMultiTargeting\\FiorelloProject.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FiorelloProject.props",
+      "PackagePath": "buildTransitive\\FiorelloProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

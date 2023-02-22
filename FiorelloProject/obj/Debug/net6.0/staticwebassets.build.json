@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "XL+ELPO0wci7eBT4wkKfpuIu1uOGI6RmxQHLcZHZB9o=",
+  "Source": "FiorelloProject",
+  "BasePath": "_content/FiorelloProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FiorelloProject/wwwroot",
+      "Source": "FiorelloProject",
+      "ContentRoot": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/wwwroot/",
+      "BasePath": "_content/FiorelloProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/bundle/FiorelloProject.styles.css",
+      "SourceId": "FiorelloProject",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/FiorelloProject",
+      "RelativePath": "FiorelloProject.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/bundle/FiorelloProject.styles.css"
+    },
+    {
+      "Identity": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/projectbundle/FiorelloProject.bundle.scp.css",
+      "SourceId": "FiorelloProject",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/FiorelloProject",
+      "RelativePath": "FiorelloProject.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/Debug/net6.0/scopedcss/projectbundle/FiorelloProject.bundle.scp.css"
+    }
+  ]
+}
