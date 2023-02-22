@@ -1,5 +1,6 @@
 ﻿using System;
 using FiorelloProject.Models;
+//using FiorelloProject.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloProject.DAL
@@ -10,7 +11,9 @@ namespace FiorelloProject.DAL
         {
         }
 
-        public DbSet<Student> Students { get; set; }
+        //public DbSet<Student> Students { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+
 
     }
 }
