@@ -1,7 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-//using FiorelloProject.Models;
+using FiorelloProject.Models;
 using FiorelloProject.DAL;
+using FiorelloProject.Migrations;
+using FiorelloProject.ViewModels;
 
 namespace FiorelloProject.Controllers;
 
@@ -16,9 +18,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-       //List<Student>students= _appDbContext.Students.ToList();
-       
-        return View();
+        //List<Student>students= _appDbContext.Students.ToList();
+
+
+        HomeVM homeVM = new HomeVM();
+        homeVM.Sliders = _appDbContext.Sliders.ToList();
+        homeVM.SliderDetail = _appDbContext.SliderDetails.FirstOrDefault();
+        return View(homeVM);
     }
 
   

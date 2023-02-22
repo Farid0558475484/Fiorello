@@ -13,6 +13,7 @@ namespace FiorelloProject.DAL
 
         //public DbSet<Student> Students { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<SliderDetail> SliderDetails { get; set; }
 
 
     }
