@@ -24,7 +24,7 @@ namespace FiorelloProject.Controllers
             var products = _appDbContext.Products
                 .Include(p => p.ProductImages)
                 .Include(p => p.Category)
-                .Take(8)
+                .Take(2)
                 .ToList();
 
             return View(products);
@@ -32,9 +32,17 @@ namespace FiorelloProject.Controllers
 
 
 
-        public IActionResult LoadMore()
+        public IActionResult LoadMore(int skip)
         {
-            return View();
+
+            var products = _appDbContext.Products
+                .Include(p=>p.Category)
+                .Include(P=>P.ProductImages)
+                .Skip(skip)
+                .Take(2)
+                .ToList();
+
+            return PartialView("_ProductLeadMorePartial");
         }
     }
 }

@@ -1,14 +1,24 @@
 
-$(document).on('click', '#loadMoreBtn', function () {
-    alert("salam");
-})
+
 
 $(document).ready(function () {
 
-
     $(document).on('click', '#loadMoreBtn', function () {
-        alert("salam");
+   alert("salam")
     })
+
+    //let skip = 2;
+    //$(document).on('click', '#loadMoreBtn', function () {
+    //    let productList = $("productList);
+    //    $.ajax({
+    //        url: "product/loadMore?skip" + skip,
+    //        method: "get",
+    //        success: function (res) {
+    //            productList.append(res);
+    //            skip += 2;
+    //        }
+    //        })
+    //})
 
 
 
