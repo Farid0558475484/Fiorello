@@ -77,7 +77,7 @@
             @foreach (var item in Model.Products)
             {
                 <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
-                    <div class="product-item text-center" data-id="@item.Category.Name">
+                    <div class="product-item text-center" data-id="@item.Category.Name.ToLower()">
                         <div class="img">
                             <a href="">
                                 <img src="~/img/@item.ProductImages.FirstOrDefault()?.ImageUrl" class="img-fluid" alt="">
