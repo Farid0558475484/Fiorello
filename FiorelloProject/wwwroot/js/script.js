@@ -3,11 +3,19 @@
 
 $(document).ready(function () {
 
-   // $(document).on('click', '#loadMoreBtn', function () {
-   //alert("salam")
-   // })
 
-    let skip = 2;
+    //search
+    $(document).on('keyup', '#input-search', function () {
+        let searchValue = $(this).val().trim();
+    })
+
+
+
+
+
+
+    //loadmore
+    let skip = 4;
     $(document).on('click', '#loadMoreBtn', function () {
         let productList = $("#productList");
      
@@ -17,14 +25,13 @@ $(document).ready(function () {
             method: "get",
             success: function (res) {
                 productList.append(res);
-                skip += 2;
+                skip += 4;
                 if (skip >= productCount) {
                     $("#loadMoreBtn").remove();
                
 
                 }
                 console.log(res)
-
 
             }
             })
