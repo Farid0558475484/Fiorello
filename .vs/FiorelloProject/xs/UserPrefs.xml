@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{B0AC9FE5-0AAE-42FC-AAD6-B3C2D211CC38}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Controllers/ProductController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Controllers/CommonController.cs">
     <Files>
-      <File FileName="FiorelloProject/Controllers/HomeController.cs" Line="25" Column="25" />
-      <File FileName="FiorelloProject/Controllers/ProductController.cs" Line="42" Column="25" />
-      <File FileName="FiorelloProject/wwwroot/js/script.js" Line="24" Column="15" />
-      <File FileName="FiorelloProject/Views/Shared/_ProductLeadMorePartial.cshtml" Line="2" Column="1" />
-      <File FileName="FiorelloProject/Views/Product/Index.cshtml" Line="10" Column="61" />
-      <File FileName="FiorelloProject/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Controllers/HomeController.cs" />
+      <File FileName="FiorelloProject/Controllers/ProductController.cs" />
+      <File FileName="FiorelloProject/wwwroot/js/script.js" />
+      <File FileName="FiorelloProject/Views/Shared/_Layout.cshtml" />
+      <File FileName="FiorelloProject/Controllers/CommonController.cs" Line="30" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +19,7 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Product" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_ProductLoadMorePartial.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="js" expanded="True" />

@@ -2,15 +2,30 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FiorelloProject.DAL;
+using FiorelloProject.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FiorelloProject.Controllers
 {
     public class CommonController : Controller
     {
-        public IActionResult Index()
+
+        private readonly AppDbContext _appDbContext;
+
+        public CommonController(AppDbContext appDbContext)
         {
-            return View();
+            _appDbContext = appDbContext;
+        }
+
+
+        public IActionResult Search(string search)
+        {
+
+            var products = _appDbContext.Products
+                .Where(p => p.Name.ToLower().Contains(search.ToLower()))
+                .ToList();
+            return PartialView("_SearchPartial",products);
         }
     }
 }
