@@ -1,4 +1,16 @@
+
+$(document).on('click', '#loadMoreBtn', function () {
+    alert("salam");
+})
+
 $(document).ready(function () {
+
+
+    $(document).on('click', '#loadMoreBtn', function () {
+        alert("salam");
+    })
+
+
 
     // HEADER
 

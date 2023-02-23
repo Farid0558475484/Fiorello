@@ -24,9 +24,17 @@ namespace FiorelloProject.Controllers
             var products = _appDbContext.Products
                 .Include(p => p.ProductImages)
                 .Include(p => p.Category)
+                .Take(8)
                 .ToList();
 
             return View(products);
+        }
+
+
+
+        public IActionResult LoadMore()
+        {
+            return View();
         }
     }
 }
