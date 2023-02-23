@@ -20,11 +20,11 @@ namespace FiorelloProject.Controllers
 
         public IActionResult Index()
         {
-
+            ViewBag.ProductCount = _appDbContext.Products.Count();
             var products = _appDbContext.Products
                 .Include(p => p.ProductImages)
                 .Include(p => p.Category)
-                .Take(2)
+                .Take(4)
                 .ToList();
 
             return View(products);
@@ -39,10 +39,10 @@ namespace FiorelloProject.Controllers
                 .Include(p=>p.Category)
                 .Include(P=>P.ProductImages)
                 .Skip(skip)
-                .Take(2)
+                .Take(4)
                 .ToList();
 
-            return PartialView("_ProductLeadMorePartial");
+            return PartialView("_ProductLoadMorePartial",products);
         }
     }
 }

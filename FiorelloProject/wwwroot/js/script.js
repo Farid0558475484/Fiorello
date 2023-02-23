@@ -3,22 +3,32 @@
 
 $(document).ready(function () {
 
-    $(document).on('click', '#loadMoreBtn', function () {
-   alert("salam")
-    })
+   // $(document).on('click', '#loadMoreBtn', function () {
+   //alert("salam")
+   // })
 
-    //let skip = 2;
-    //$(document).on('click', '#loadMoreBtn', function () {
-    //    let productList = $("productList);
-    //    $.ajax({
-    //        url: "product/loadMore?skip" + skip,
-    //        method: "get",
-    //        success: function (res) {
-    //            productList.append(res);
-    //            skip += 2;
-    //        }
-    //        })
-    //})
+    let skip = 2;
+    $(document).on('click', '#loadMoreBtn', function () {
+        let productList = $("#productList");
+     
+        let productCount = $("#productCount").val();
+        $.ajax({
+            url: "product/loadMore?skip" + skip,
+            method: "get",
+            success: function (res) {
+                productList.append(res);
+                skip += 2;
+                if (skip >= productCount) {
+                    $("#loadMoreBtn").remove();
+               
+
+                }
+                console.log(res)
+
+
+            }
+            })
+    })
 
 
 

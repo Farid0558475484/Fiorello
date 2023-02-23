@@ -1,13 +1,14 @@
 @model List<Product>
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
 
 <div class="container">
-    <div class="row"  >
+    <input type="hidden" value="@ViewBag.ProductCount" id="productCount" />
+    <div class="row" id="productList" >
         @foreach (var item in Model)
         {
             <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
