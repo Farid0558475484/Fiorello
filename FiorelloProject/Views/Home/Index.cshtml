@@ -40,7 +40,7 @@
 <!-- SLIDER END -->
 <!-- PRODUCTS START -->
 
-@*<section id="products">
+<section id="products">
     <div class="container">
         <div class="row pt-5">
             <div class="col-12 d-flex justify-content-between">
@@ -80,7 +80,7 @@
                     <div class="product-item text-center" data-id="@item.Category.Name">
                         <div class="img">
                             <a href="">
-                                <img src="~/img/@item.productImages.FirstOrDefault()" class="img-fluid" alt="">
+                                <img src="~/img/@item.ProductImages.FirstOrDefault()?.ImageUrl" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="title mt-3">
@@ -96,7 +96,7 @@
 
         </div>
     </div>
-</section>*@
+</section>
 
 <!-- PRODUCTS END -->
 <!-- ABOUT START -->

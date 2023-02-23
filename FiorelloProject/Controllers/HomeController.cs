@@ -4,6 +4,7 @@ using FiorelloProject.Models;
 using FiorelloProject.DAL;
 using FiorelloProject.Migrations;
 using FiorelloProject.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloProject.Controllers;
 
@@ -26,8 +27,8 @@ public class HomeController : Controller
         homeVM.SliderDetails = _appDbContext.SliderDetails.FirstOrDefault();
 
 
-        //homeVM.Categories = _appDbContext.Categories.ToList();
-        //homeVM.Products = _appDbContext.Products.ToList();
+        homeVM.Categories = _appDbContext.Categories.ToList();
+        homeVM.Products = _appDbContext.Products.Include(m=>m.ProductImages).ToList();
         return View(homeVM);
     }
 
