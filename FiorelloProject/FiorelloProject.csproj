@@ -15,6 +15,7 @@
     <Folder Include="DAL\" />
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -27,6 +28,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="ViewModels\" />
+    <None Remove="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
