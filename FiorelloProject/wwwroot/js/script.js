@@ -8,7 +8,7 @@ $(document).ready(function () {
     $(document).on('keyup', '#input-search', function () {
         let searchValue = $(this).val().trim();
         let searchList = $("#searchList");
-
+        $("#searchList li").slice(1).remove()
 
         $.ajax({
             url: "/common/search?search=" + searchValue,

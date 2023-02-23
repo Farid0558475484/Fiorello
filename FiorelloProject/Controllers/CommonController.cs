@@ -24,6 +24,8 @@ namespace FiorelloProject.Controllers
 
             var products = _appDbContext.Products
                 .Where(p => p.Name.ToLower().Contains(search.ToLower()))
+                .Take(2)
+                .OrderByDescending(p => p.Id)
                 .ToList();
             return PartialView("_SearchPartial",products);
         }
