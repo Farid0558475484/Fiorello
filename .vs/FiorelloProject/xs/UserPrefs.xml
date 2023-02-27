@@ -1,24 +1,31 @@
 ﻿<Properties StartupConfiguration="{B0AC9FE5-0AAE-42FC-AAD6-B3C2D211CC38}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Controllers/CommonController.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/Views/Home/Index.cshtml" relfile="FiorelloProject/Views/Home/Index.cshtml" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/ViewModels/HomeVM.cs">
     <Files>
-      <File FileName="FiorelloProject/Controllers/HomeController.cs" />
-      <File FileName="FiorelloProject/Controllers/ProductController.cs" />
-      <File FileName="FiorelloProject/wwwroot/js/script.js" />
-      <File FileName="FiorelloProject/Views/Shared/_Layout.cshtml" />
-      <File FileName="FiorelloProject/Controllers/CommonController.cs" Line="30" Column="2" />
+      <File FileName="FiorelloProject/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Controllers/ProductController.cs" Line="14" Column="53" />
+      <File FileName="FiorelloProject/Program.cs" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Views/Shared/_ProductLoadMorePartial.cshtml" Line="12" Column="19" />
+      <File FileName="FiorelloProject/DAL/AppDbContext.cs" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Controllers/CommonController.cs" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Models/Category.cs" Line="1" Column="1" />
+      <File FileName="FiorelloProject/ViewModels/HomeVM.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FiorelloProject" expanded="True">
             <Node name="FiorelloProject" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="DAL" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="HomeVM.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Product" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
@@ -30,11 +37,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/Views/Home/Index.cshtml" relfile="FiorelloProject/Views/Home/Index.cshtml" line="16" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
