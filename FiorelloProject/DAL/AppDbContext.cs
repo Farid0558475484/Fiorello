@@ -30,9 +30,7 @@ namespace FiorelloProject.DAL
         public DbSet<SosialPage>? SosialPages { get; set; }
         public DbSet<Author>? Authors { get; set; }
         public DbSet<Genre>? Genres { get; set; }
-
-
-
+        public object Books { get; internal set; }
     }
 }
 

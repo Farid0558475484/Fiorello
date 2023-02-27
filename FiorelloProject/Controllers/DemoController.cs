@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FiorelloProject.DAL;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloProject.Controllers
 {
@@ -25,10 +26,19 @@ namespace FiorelloProject.Controllers
         {
 
             //var connectionString = _configuration["ConnectionStrings:DefaultConnection"];
-            var connectionString = _configuration.GetSection("ConnectionStrings:DefaultConnection").Value;
+            //var connectionString = _configuration.GetSection("ConnectionStrings:DefaultConnection").Value;
+            var books = _appDbContext.Book
+                .Include(b=>b.BookImages)
+                .Include(b => b.BookImages)
+                .Include(b => b.BookGenres)
+                .ThenInclude(bg=>bg.Genre)
+                .Include(b=>b.BookAuthors)
+                .ThenInclude(ba=>ba.Author)
+                .ThenInclude(a => a.SosialPage)
 
+                .ToList();
 
-            return Content(connectionString);
+            return View(books);
         }
     }
 }
