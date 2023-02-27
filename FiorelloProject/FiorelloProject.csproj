@@ -20,6 +20,7 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Header\" />
     <Folder Include="Views\Shared\Components\Product\" />
+    <Folder Include="Models\Demo\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -37,6 +38,7 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Header\" />
     <None Remove="Views\Shared\Components\Product\" />
+    <None Remove="Models\Demo\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
