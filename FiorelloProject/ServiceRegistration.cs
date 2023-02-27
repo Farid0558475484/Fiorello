@@ -1,11 +1,15 @@
 ﻿using System;
+using FiorelloProject.DAL;
+
 namespace FiorelloProject
 {
-	public class ServiceRegistration
+	public static class ServiceRegistration
 	{
-		public ServiceRegistration()
+     
+		public static void FiorelloProjectServiceRegistration(this IServiceCollection services)
 		{
-		}
-	}
+
+        }
+    }
 }
 

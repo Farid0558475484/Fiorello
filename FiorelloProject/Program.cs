@@ -1,4 +1,5 @@
-﻿using FiorelloProject.DAL;
+﻿using FiorelloProject;
+using FiorelloProject.DAL;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
 
 });
-
+builder.Services.FiorelloProjectServiceRegistration();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

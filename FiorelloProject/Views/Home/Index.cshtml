@@ -1,4 +1,4 @@
-@*@model List<Student>*@
+
 @model HomeVM
 @{
     ViewData["Title"] = "Index";
@@ -13,9 +13,9 @@
 <section id="slider">
     <div class="owl-carousel slider">
 
-        @foreach (var item in Model.Sliders)
+        @foreach (var slider in Model.Sliders)
         {
-            <div> <img src="~/img/@item.ImagreUrl" alt=""> </div>
+            <div> <img src="~/img/@slider.ImagreUrl" alt=""> </div>
 
         }
     </div>
