@@ -13,6 +13,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 });
 builder.Services.FiorelloProjectServiceRegistration();
+builder.Services.AddSession(options =>
+options.IdleTimeout = TimeSpan.FromSeconds(15));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,6 +27,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseSession();
 
 app.UseRouting();
 

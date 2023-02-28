@@ -87,5 +87,10 @@ namespace FiorelloProject.Migrations
             migrationBuilder.DropTable(
                 name: "Category");
         }
+
+        public static implicit operator Product(Models.Product v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
