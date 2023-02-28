@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{B0AC9FE5-0AAE-42FC-AAD6-B3C2D211CC38}|Default">
   <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Views/Basket/ShowBasket.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Controllers/BasketController.cs">
     <Files>
-      <File FileName="FiorelloProject/Controllers/BasketController.cs" Line="102" Column="61" />
-      <File FileName="FiorelloProject/Views/ShowBasket/ShowBasket.cshtml" Line="4" Column="33" />
-      <File FileName="FiorelloProject/ViewModels/BasketVM.cs" Line="8" Column="22" />
-      <File FileName="FiorelloProject/Models/Product.cs" Line="8" Column="22" />
+      <File FileName="FiorelloProject/Views/Basket/ShowBasket.cshtml" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Services/Basket/BasketProductCount.cs" Line="4" Column="7" />
+      <File FileName="FiorelloProject/Controllers/BasketController.cs" Line="10" Column="7" />
+      <File FileName="FiorelloProject/DAL/AppDbContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,16 +18,16 @@
             <Node name="FiorelloProject" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="DAL" expanded="True">
+                <Node name="AppDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Basket" expanded="True" />
+              </Node>
+              <Node name="ViewComponents" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Basket" expanded="True" />
-                <Node name="Product" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="Header" expanded="True" />
-                  </Node>
-                </Node>
               </Node>
             </Node>
           </Node>
@@ -36,5 +35,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>

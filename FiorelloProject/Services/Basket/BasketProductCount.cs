@@ -21,6 +21,7 @@ namespace FiorelloProject.Services.Basket
 
             string basket = _contextAccessor.HttpContext.Request.Cookies["basket"];
             var products = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
+   
             return products.Sum(p => p.BasketCount);
         }
     }

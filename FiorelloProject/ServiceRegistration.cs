@@ -1,5 +1,6 @@
 ﻿using System;
 using FiorelloProject.DAL;
+using FiorelloProject.Services.Basket;
 
 namespace FiorelloProject
 {
@@ -9,6 +10,7 @@ namespace FiorelloProject
 		public static void FiorelloProjectServiceRegistration(this IServiceCollection services)
 		{
 			services.AddHttpContextAccessor();
+			services.AddScoped<IBasketProductCount,BasketProductCount>();
         }
     }
 }
