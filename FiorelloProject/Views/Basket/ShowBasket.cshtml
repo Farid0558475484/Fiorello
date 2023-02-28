@@ -1,9 +1,7 @@
 @model List<BasketVM>
 @{
     ViewData["Title"] = "ShowBasket";
-    double totalPrice = Model.Sum(p => p.Price * p.BasketCount);
-
-
+    double? totalPrice= Model.Sum(p => p.Price * p.BasketCount);
 }
 
 <div class="container">

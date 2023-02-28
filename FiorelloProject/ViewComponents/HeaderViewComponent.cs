@@ -3,6 +3,8 @@ using FiorelloProject.DAL;
 //using FiorelloProject.Migrations;
 using Microsoft.AspNetCore.Mvc;
 using FiorelloProject.Models;
+using FiorelloProject.ViewModels;
+using Newtonsoft.Json;
 
 namespace FiorelloProject.ViewComponents
 {
@@ -17,7 +19,11 @@ namespace FiorelloProject.ViewComponents
 
 		public async Task<IViewComponentResult> InvokeAsync()
 		{
-			Bio bio = _appDbContext.Bios.FirstOrDefault();
+
+
+
+
+            Bio bio = _appDbContext.Bios.FirstOrDefault();
 			return View(await Task.FromResult(bio));
 		}
 

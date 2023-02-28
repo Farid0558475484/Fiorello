@@ -8,7 +8,7 @@ namespace FiorelloProject
      
 		public static void FiorelloProjectServiceRegistration(this IServiceCollection services)
 		{
-
+			services.AddHttpContextAccessor();
         }
     }
 }

@@ -23,6 +23,8 @@
     <Folder Include="Views\Shared\Components\Product\" />
     <Folder Include="Models\Demo\" />
     <Folder Include="Views\Demo\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Basket\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -42,6 +44,8 @@
     <None Remove="Views\Shared\Components\Product\" />
     <None Remove="Models\Demo\" />
     <None Remove="Views\Demo\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Basket\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
