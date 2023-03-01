@@ -25,6 +25,11 @@
     <Folder Include="Views\Demo\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Basket\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\AdminArea\" />
+    <Folder Include="Areas\AdminArea\Models\" />
+    <Folder Include="Areas\AdminArea\Controllers\" />
+    <Folder Include="Areas\AdminArea\Views\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -46,6 +51,11 @@
     <None Remove="Views\Demo\" />
     <None Remove="Services\" />
     <None Remove="Services\Basket\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\AdminArea\" />
+    <None Remove="Areas\AdminArea\Models\" />
+    <None Remove="Areas\AdminArea\Controllers\" />
+    <None Remove="Areas\AdminArea\Views\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
