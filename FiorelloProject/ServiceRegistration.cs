@@ -2,6 +2,7 @@
 using FiorelloProject.DAL;
 using FiorelloProject.Services.Basket;
 
+
 namespace FiorelloProject
 {
 	public static class ServiceRegistration
@@ -10,7 +11,7 @@ namespace FiorelloProject
 		public static void FiorelloProjectServiceRegistration(this IServiceCollection services)
 		{
 			services.AddHttpContextAccessor();
-			services.AddScoped<IBasketProductCount,BasketProductCount>();
+			//services.AddScoped<IBasketProductCount, BasketProductCount>(); 
         }
     }
 }

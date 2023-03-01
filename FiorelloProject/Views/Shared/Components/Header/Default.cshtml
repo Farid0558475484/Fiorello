@@ -1,8 +1,8 @@
 @model Bio
-@using FiorelloProject.Services.Basket
-@inject IBasketProductCount _basketProductCount;
+@*@using FiorelloProject.Services.Basket
+@inject IBasketProductCount _basketProductCount;*@
 @{
-    int result = _basketProductCount.CalculateBasketProductCount();
+//int result = _basketProductCount.CalculateBasketProductCount();
 }
     <!-- HEADER START -->
 
@@ -137,10 +137,11 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item my-auto shop-cart">
-                                    <a asp-controller="basket"  asp-action="showbasket">
+                                    <a asp-controller="basket" asp-action="showbasket">
                                         <i class="fas fa-shopping-bag"></i>
                                     </a>
-                                    <sup class="rounded-circle">@result</sup>
+                                    @*<sup class="rounded-circle">@result</sup>*@
+                                    <sup class="rounded-circle">0</sup>
                                     <span>CART ($0)</span>
                                     <ul class="list-unstyled py-3">
                                         <li class="">No products in the cart.</li>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QuZxyGXBuBcSpSQbryIVGbas0X+Q2n+cYio8W/C51Loy205JZWeFl8Nt4nT/2c4hSe0SiWfe+TLK2lunJ4vAZQ==",
+  "dgSpecHash": "7PPqJAadWL7FlpVwH+AcIxF1LUCTeA7SlpqNnHqY0qpyY/Zs1Y1HP8qDCnPw7NxiLR10LUGoCPZcf53lNOFU8Q==",
   "success": true,
-  "projectFilePath": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/FiorelloProject.csproj",
+  "projectFilePath": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/FiorelloProject.csproj",
   "expectedPackageFiles": [
     "/Users/xamyak/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

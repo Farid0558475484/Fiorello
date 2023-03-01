@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/FiorelloProject.csproj": {}
+    "/Users/xamyak/Desktop/Fiorello/FiorelloProject/FiorelloProject.csproj": {}
   },
   "projects": {
-    "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/FiorelloProject.csproj": {
+    "/Users/xamyak/Desktop/Fiorello/FiorelloProject/FiorelloProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/FiorelloProject.csproj",
+        "projectUniqueName": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/FiorelloProject.csproj",
         "projectName": "FiorelloProject",
-        "projectPath": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/FiorelloProject.csproj",
+        "projectPath": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/FiorelloProject.csproj",
         "packagesPath": "/Users/xamyak/.nuget/packages/",
-        "outputPath": "/Users/xamyak/Desktop/FiorelloProject/FiorelloProject/obj/",
+        "outputPath": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xamyak/.nuget/NuGet/NuGet.Config"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

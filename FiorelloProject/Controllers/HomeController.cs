@@ -12,11 +12,12 @@ namespace FiorelloProject.Controllers;
 public class HomeController : Controller
 {
     private readonly AppDbContext _appDbContext;
-    private readonly IBasketProductCount _basketProductCount;
+ 
 
     public HomeController(AppDbContext appDbContext)
     {
         _appDbContext = appDbContext;
+
  
     }
 
