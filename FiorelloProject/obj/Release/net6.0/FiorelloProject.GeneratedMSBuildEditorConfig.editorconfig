@@ -16,20 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/xamyak/Desktop/Fiorello/FiorelloProject
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0NhdGVnb3J5L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Category/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0NhdGVnb3J5L0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0NhdGVnb3J5L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Shared/Components/Create/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL0NyZWF0ZS9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Shared/Components/Detail/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL0RldGFpbC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/xamyak/Desktop/Fiorello/FiorelloProject/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml]

@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{B0AC9FE5-0AAE-42FC-AAD6-B3C2D211CC38}|Default">
-  <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Controllers/BasketController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Areas/AdminArea/Views/Shared/Components/Create/Index.cshtml">
     <Files>
-      <File FileName="FiorelloProject/Views/Basket/ShowBasket.cshtml" Line="1" Column="1" />
-      <File FileName="FiorelloProject/Services/Basket/BasketProductCount.cs" Line="4" Column="7" />
-      <File FileName="FiorelloProject/Controllers/BasketController.cs" Line="10" Column="7" />
-      <File FileName="FiorelloProject/DAL/AppDbContext.cs" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Areas/AdminArea/Views/Shared/Components/Create/Create.cshtml" Line="16" Column="47" />
+      <File FileName="FiorelloProject/Areas/AdminArea/Views/Dashboard/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,24 +17,26 @@
           <Node name="FiorelloProject" expanded="True">
             <Node name="FiorelloProject" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="DAL" expanded="True">
-                <Node name="AppDbContext.cs" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="AdminArea" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Models" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Category" expanded="True" />
+                    <Node name="Shared" expanded="True">
+                      <Node name="Components" expanded="True">
+                        <Node name="Create" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Services" expanded="True">
-                <Node name="Basket" expanded="True" />
-              </Node>
-              <Node name="ViewComponents" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Basket" expanded="True" />
-              </Node>
+              <Node name="DAL" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>
