@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\admin\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -30,6 +31,9 @@
     <Folder Include="Areas\AdminArea\Models\" />
     <Folder Include="Areas\AdminArea\Controllers\" />
     <Folder Include="Areas\AdminArea\Views\" />
+    <Folder Include="Areas\AdminArea\Views\Shared\" />
+    <Folder Include="wwwroot\admin\" />
+    <Folder Include="Areas\AdminArea\Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -56,6 +60,8 @@
     <None Remove="Areas\AdminArea\Models\" />
     <None Remove="Areas\AdminArea\Controllers\" />
     <None Remove="Areas\AdminArea\Views\" />
+    <None Remove="Areas\AdminArea\Views\Shared\" />
+    <None Remove="Areas\AdminArea\Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
