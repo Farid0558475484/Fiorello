@@ -35,6 +35,9 @@
     <Folder Include="wwwroot\admin\" />
     <Folder Include="Areas\AdminArea\Views\Dashboard\" />
     <Folder Include="Areas\AdminArea\Views\Category\" />
+    <Folder Include="Areas\AdminArea\Views\Shared\Components\" />
+    <Folder Include="Areas\AdminArea\Views\Shared\Components\Detail\" />
+    <Folder Include="Areas\AdminArea\Views\Shared\Components\Create\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -64,6 +67,9 @@
     <None Remove="Areas\AdminArea\Views\Shared\" />
     <None Remove="Areas\AdminArea\Views\Dashboard\" />
     <None Remove="Areas\AdminArea\Views\Category\" />
+    <None Remove="Areas\AdminArea\Views\Shared\Components\" />
+    <None Remove="Areas\AdminArea\Views\Shared\Components\Detail\" />
+    <None Remove="Areas\AdminArea\Views\Shared\Components\Create\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
