@@ -1,4 +1,4 @@
-@model CategoryCreateVM
+@model SliderCreateVM
 @{
     ViewData["Title"] = "Create";
 }
@@ -11,28 +11,23 @@
                 <p class="card-description">
                     Create Category Form
                 </p>
-                <form method="post" class="forms-sample">
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
 
                     <div class="form-group">
-                        <label asp-for="Name"></label>
-                        <input asp-for="Name" class="form-control"  placeholder="Name">
-                        <span class="text-danger" asp-validation-for="Name"></span>
+                        <label asp-for="Photo"></label>
+                        <input asp-for="Photo" class="form-control" placeholder="Name">
+                        <span class="text-danger" asp-validation-for="Photo"></span>
                     </div>
 
-                    <div class="form-group">
-                        <label asp-for="Description"></label>
-                        <input asp-for="Description" class="form-control"  placeholder="Description">
-                        <span  class="text-danger" asp-validation-for="Description"></span>
-                    </div>
-                   
-             
+
+
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <button class="btn btn-dark">Cancel</button>
                 </form>
             </div>
         </div>
     </div>
-   </div>
+</div>
 
 @section Scripts{
 

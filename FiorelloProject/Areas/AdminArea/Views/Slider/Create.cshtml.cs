@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FiorelloProject.Areas.AdminArea.Views.Shared.Components.Create
+namespace FiorelloProject.Areas.AdminArea.Views.Slider
 {
     public class CreateModel : PageModel
     {
