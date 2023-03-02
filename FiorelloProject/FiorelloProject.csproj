@@ -36,6 +36,7 @@
     <Folder Include="Areas\AdminArea\Views\Dashboard\" />
     <Folder Include="Areas\AdminArea\Views\Category\" />
     <Folder Include="Areas\AdminArea\Views\Slider\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -66,6 +67,7 @@
     <None Remove="Areas\AdminArea\Views\Dashboard\" />
     <None Remove="Areas\AdminArea\Views\Category\" />
     <None Remove="Areas\AdminArea\Views\Slider\" />
+    <None Remove="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />

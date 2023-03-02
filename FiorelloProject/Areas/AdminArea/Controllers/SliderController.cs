@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FiorelloProject.DAL;
+using FiorelloProject.Extensions;
 using FiorelloProject.Models;
 using FiorelloProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -50,30 +51,26 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
             }
 
-            if (sliderCreateVM.Photo.ContentType.Contains("image"))
+            if (sliderCreateVM.Photo.IsImage())
             {
                 ModelState.AddModelError("Photo", "Ancag Sekil");
                 return View();
             }
-            if (sliderCreateVM.Photo.Length/1024>500)
+
+
+            if (sliderCreateVM.Photo.CheckImageSize(500))
             {
                 ModelState.AddModelError("Photo", "Olcu Boyukdu");
                 return View();
             }
 
 
-            string fileName = Guid.NewGuid().ToString() + sliderCreateVM.Photo.FileName;
-            string fullPath = Path.Combine(_env.WebRootPath, "img", fileName);
-
-
-            using(FileStream stream = new FileStream(fullPath,FileMode.Create))
-            {
-                sliderCreateVM.Photo.CopyTo(stream);
-            }
-
+   
 
             Slider newSlider = new();
-            newSlider.ImagreUrl = fileName;
+            newSlider.ImagreUrl = sliderCreateVM.Photo.SaveImage(_env, "img", sliderCreateVM.Photo.FileName);
+
+
             _appDbContext.Sliders.Add(newSlider);
             _appDbContext.SaveChanges();
 
