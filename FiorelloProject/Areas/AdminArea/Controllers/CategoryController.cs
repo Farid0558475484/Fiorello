@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using FiorelloProject.DAL;
 //using FiorelloProject.Migrations;
 using FiorelloProject.Models;
-
+using FiorelloProject.ViewModels;
 
 namespace FiorelloProject.Areas.AdminArea.Controllers
 {
@@ -42,19 +42,31 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
         public IActionResult Create()
         {
-
             return View();
-
         }
+
+
+
 
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
-
-
-        public IActionResult Create(Category category)
+        public IActionResult Create(CategoryCreateVM category)
         {       if (!ModelState.IsValid) return View();
-            _appDbContext.Categories.Add(category);
+            bool isExit = _appDbContext.Categories.Any(c => c.Name.ToLower() == category.Name.ToLower());
+
+            if (isExit)
+            {
+                ModelState.AddModelError("Name", "Bu addan artig var");
+                return View();
+            }
+            Category newCategory = new()
+            {
+                Name = category.Name,
+                Description = category.Description
+
+            };
+            _appDbContext.Categories.Add(newCategory);
             _appDbContext.SaveChanges();
             return RedirectToAction("Index");
 

@@ -1,4 +1,4 @@
-@model Category
+@model CategoryCreateVM
 @{
     ViewData["Title"] = "Create";
 }
@@ -33,3 +33,9 @@
         </div>
     </div>
    </div>
+
+@section Scripts{
+
+    <partial name="_ValidationPartial"></partial>
+
+}
