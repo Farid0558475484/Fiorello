@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{B0AC9FE5-0AAE-42FC-AAD6-B3C2D211CC38}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Areas/AdminArea/Views/Shared/Components/Create/Index.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Areas/AdminArea/Views/Dashboard/Index.cshtml">
     <Files>
-      <File FileName="FiorelloProject/Areas/AdminArea/Views/Shared/Components/Create/Create.cshtml" Line="16" Column="47" />
       <File FileName="FiorelloProject/Areas/AdminArea/Views/Dashboard/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -23,11 +19,10 @@
                   <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
                     <Node name="Category" expanded="True" />
-                    <Node name="Shared" expanded="True">
-                      <Node name="Components" expanded="True">
-                        <Node name="Create" expanded="True" />
-                      </Node>
+                    <Node name="Dashboard" expanded="True">
+                      <Node name="Index.cshtml" selected="True" />
                     </Node>
+                    <Node name="Shared" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -39,4 +34,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

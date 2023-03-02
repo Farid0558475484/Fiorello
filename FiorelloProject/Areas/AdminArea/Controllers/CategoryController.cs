@@ -53,10 +53,10 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
 
         public IActionResult Create(Category category)
-        {
+        {       if (!ModelState.IsValid) return View();
             _appDbContext.Categories.Add(category);
             _appDbContext.SaveChanges();
-            return View($"{category.Name} {category.Description}");
+            return RedirectToAction("Index");
 
         }
     }
