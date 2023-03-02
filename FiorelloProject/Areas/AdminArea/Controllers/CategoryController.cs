@@ -7,6 +7,7 @@ using FiorelloProject.DAL;
 //using FiorelloProject.Migrations;
 using FiorelloProject.Models;
 using FiorelloProject.ViewModels;
+//using FiorelloProject.Migrations;
 
 namespace FiorelloProject.Areas.AdminArea.Controllers
 {
@@ -71,5 +72,46 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
             return RedirectToAction("Index");
 
         }
-    }
+
+
+
+        public IActionResult Edit(int id)
+        {
+            if (id == null) return NotFound();
+            Category category = _appDbContext.Categories.SingleOrDefault(c => c.Id == id);
+            if (category == null) return NotFound();
+            return View(new CategoryUpdateVM { Name=category.Name, Description=category.Description});
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Edit(int id, CategoryUpdateVM updateVM)
+        {
+
+
+            if (id == null) return NotFound();
+            Category existCategory = _appDbContext.Categories.Find(id);
+            if (!ModelState.IsValid) return View();
+            bool isExit = _appDbContext.Categories.Any(c => c.Name.ToLower() == updateVM.Name.ToLower() &&c.Id!=id);
+
+            if (isExit)
+            {
+                ModelState.AddModelError("Name", "Bu addan artig var");
+                return View();
+            }
+            if (existCategory == null) return NotFound();
+
+            existCategory.Description = updateVM.Description;
+            existCategory.Name = updateVM.Name;
+
+            _appDbContext.SaveChanges();
+
+            return RedirectToAction("Index");
+
+
+        }
+
+
+        }
 }
