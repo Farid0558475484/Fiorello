@@ -50,11 +50,13 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
+
+
         public IActionResult Create(Category category)
         {
             _appDbContext.Categories.Add(category);
             _appDbContext.SaveChanges();
-            return View($"{category.Name}");
+            return View($"{category.Name} {category.Description}");
 
         }
     }
