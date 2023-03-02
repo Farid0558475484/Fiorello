@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FiorelloProject.DAL;
+using FiorelloProject.Models;
 using FiorelloProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -60,7 +61,23 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
                 return View();
             }
 
-            return Content(_env.WebRootPath);
+
+            string fileName = Guid.NewGuid().ToString() + sliderCreateVM.Photo.FileName;
+            string fullPath = Path.Combine(_env.WebRootPath, "img", fileName);
+
+
+            using(FileStream stream = new FileStream(fullPath,FileMode.Create))
+            {
+                sliderCreateVM.Photo.CopyTo(stream);
+            }
+
+
+            Slider newSlider = new();
+            newSlider.ImagreUrl = fileName;
+            _appDbContext.Sliders.Add(newSlider);
+            _appDbContext.SaveChanges();
+
+            return RedirectToAction("Index");
         }
     }
 }

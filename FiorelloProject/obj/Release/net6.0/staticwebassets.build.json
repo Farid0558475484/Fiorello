@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xz5FHxBxuXwqVS7rSlLZ1Rv3lwK15Fd9ugB0YK45ZRE=",
+  "Hash": "tTKUcOL/CjSPLq7vr+jWFn9ee47Hkz7pNYbCr30y4k4=",
   "Source": "FiorelloProject",
   "BasePath": "_content/FiorelloProject",
   "Mode": "Default",
@@ -15332,6 +15332,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/style.css.map"
+    },
+    {
+      "Identity": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/wwwroot/img/459b13a9-b9e6-4079-ab77-856c6af1c815Ferid Hacizade Resume-En.pdf",
+      "SourceId": "FiorelloProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/wwwroot/",
+      "BasePath": "_content/FiorelloProject",
+      "RelativePath": "img/459b13a9-b9e6-4079-ab77-856c6af1c815Ferid Hacizade Resume-En.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/459b13a9-b9e6-4079-ab77-856c6af1c815Ferid Hacizade Resume-En.pdf"
     },
     {
       "Identity": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/wwwroot/img/blog-feature-img-1.jpg",

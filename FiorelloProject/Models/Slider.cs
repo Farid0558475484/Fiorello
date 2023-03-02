@@ -13,11 +13,7 @@ namespace FiorelloProject.Models
 		public string? ImagreUrl { get; set; }
 		[NotMapped]
 		public IFormFile Photo { get; set; }
-
-
-
-
-
+        //public string ImageUrl { get; internal set; }
     }
 }
 
