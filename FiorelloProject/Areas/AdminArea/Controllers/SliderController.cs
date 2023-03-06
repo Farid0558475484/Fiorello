@@ -64,17 +64,36 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
                 return View();
             }
 
-
-   
-
             Slider newSlider = new();
             newSlider.ImagreUrl = sliderCreateVM.Photo.SaveImage(_env, "img", sliderCreateVM.Photo.FileName);
-
 
             _appDbContext.Sliders.Add(newSlider);
             _appDbContext.SaveChanges();
 
             return RedirectToAction("Index");
+        }
+
+
+
+        public IActionResult Delete(int id)
+        {
+            if (id == null) return NotFound();
+            var slider = _appDbContext.Sliders.FirstOrDefault(a => a.Id == id);
+            if (slider == null) return NotFound();
+            string fullPath = Path.Combine(_env.WebRootPath, "img", slider.ImagreUrl);
+
+            if (
+            System.IO.File.Exists(fullPath))
+            {
+                System.IO.File.Delete(fullPath);
+            }
+
+     
+
+            _appDbContext.Remove(slider);
+            _appDbContext.SaveChanges();
+            return RedirectToAction("Index");
+
         }
     }
 }

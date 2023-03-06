@@ -19,8 +19,9 @@ namespace FiorelloProject.Extensions
 
         }
 
-
-
+        /////
+        ///
+       
 
         public static string SaveImage(this IFormFile file, IWebHostEnvironment env , string root, string fileName)
         {
