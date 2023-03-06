@@ -1,4 +1,4 @@
-@model Slider
+@model SliderUpdateVM
 @{
     ViewData["Title"] = "Edit";
 }
@@ -7,12 +7,46 @@
     <div class="col-md-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-    
 
 
-                <img src="~/img/@Model.ImagreUrl"  width="150" height="150" />
+
+                <img src="~/img/@Model.ImageUrl" width="150" height="150" />
                 <a asp-action="Index" class="btn btn-dark">Back</a>
             </div>
         </div>
     </div>
 </div>
+
+
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Default form</h4>
+                <p class="card-description">
+                    Create Category Form
+                </p>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <input asp-for="Photo" class="form-control">
+                        <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+
+
+
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button class="btn btn-dark">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <partial name="_ValidationPartial"></partial>
+
+}

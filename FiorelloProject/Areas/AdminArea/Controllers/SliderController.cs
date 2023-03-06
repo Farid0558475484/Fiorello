@@ -51,7 +51,7 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
             }
 
-            if (sliderCreateVM.Photo.IsImage())
+            if (!sliderCreateVM.Photo.IsImage())
             {
                 ModelState.AddModelError("Photo", "Ancag Sekil");
                 return View();
@@ -99,7 +99,46 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
             if (id == null) return NotFound();
             Slider slider = _appDbContext.Sliders.SingleOrDefault(c => c.Id == id);
             if (slider == null) return NotFound();
-            return View(slider);
+            return View(new SliderUpdateVM { ImageUrl=slider.ImagreUrl});
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Edit(int id,SliderUpdateVM updateVM)
+        {
+            if (id == null) return NotFound();
+            Slider slider = _appDbContext.Sliders.SingleOrDefault(c => c.Id == id);
+            if (slider == null) return NotFound();
+            if(updateVM.Photo!=null)
+            {
+                string fullPath = Path.Combine(_env.WebRootPath, "img", slider.ImagreUrl);
+
+                if (!updateVM.Photo.IsImage())
+                {
+                    ModelState.AddModelError("Photo", "Ancag Sekil");
+                    return View();
+                }
+
+
+                if (updateVM.Photo.CheckImageSize(500))
+                {
+                    ModelState.AddModelError("Photo", "Olcu Boyukdu");
+                    return View();
+                }
+
+                if (
+                System.IO.File.Exists(fullPath))
+                {
+                    System.IO.File.Delete(fullPath);
+                }
+                slider.ImagreUrl = updateVM.Photo.SaveImage(_env, "img", updateVM.Photo.FileName);
+                _appDbContext.SaveChanges();
+
+            }
+
+
+            return RedirectToAction("Index");
         }
     }
 }
