@@ -38,6 +38,7 @@
     <Folder Include="Areas\AdminArea\Views\Slider\" />
     <Folder Include="Extensions\" />
     <Folder Include="Areas\AdminArea\Views\Product\" />
+    <Folder Include="Areas\AdminArea\Views\Demo\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\" />
@@ -70,6 +71,7 @@
     <None Remove="Areas\AdminArea\Views\Slider\" />
     <None Remove="Extensions\" />
     <None Remove="Areas\AdminArea\Views\Product\" />
+    <None Remove="Areas\AdminArea\Views\Demo\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
