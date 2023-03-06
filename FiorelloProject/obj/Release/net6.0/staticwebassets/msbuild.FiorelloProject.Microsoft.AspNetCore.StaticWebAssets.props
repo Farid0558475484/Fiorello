@@ -14400,22 +14400,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\FiorelloProject.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\459b13a9-b9e6-4079-ab77-856c6af1c815Ferid Hacizade Resume-En.pdf))">
-      <SourceType>Package</SourceType>
-      <SourceId>FiorelloProject</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FiorelloProject</BasePath>
-      <RelativePath>img/459b13a9-b9e6-4079-ab77-856c6af1c815Ferid Hacizade Resume-En.pdf</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\459b13a9-b9e6-4079-ab77-856c6af1c815Ferid Hacizade Resume-En.pdf))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog-feature-img-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>FiorelloProject</SourceId>

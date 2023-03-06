@@ -87,13 +87,19 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
             {
                 System.IO.File.Delete(fullPath);
             }
-
-     
-
             _appDbContext.Remove(slider);
             _appDbContext.SaveChanges();
             return RedirectToAction("Index");
 
+        }
+
+
+        public IActionResult Edit(int id)
+        {
+            if (id == null) return NotFound();
+            Slider slider = _appDbContext.Sliders.SingleOrDefault(c => c.Id == id);
+            if (slider == null) return NotFound();
+            return View(slider);
         }
     }
 }
