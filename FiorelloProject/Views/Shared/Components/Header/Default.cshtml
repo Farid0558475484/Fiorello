@@ -94,36 +94,25 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
-                                    <ul class="list-unstyled py-3">
-                                        <li class=""><a class="px-1" href="">Blog 1</a></li>
-                                        <li class=""><a class="px-1" href="">Blog 2</a></li>
-                                        <li class="">
-                                            <a class="px-1 mr-5" href="">Blog 3</a>
-                                            <i class="fas fa-chevron-right fa-sm"></i>
-                                            <ul class="list-unstyled py-3">
-                                                <li class=""><a class="px-3" href="">Blog Layouts 1</a></li>
-                                                <li class=""><a class="px-3" href="">Blog Layouts 2</a></li>
-                                                <li class=""><a class="px-3" href="">Blog Layouts 3</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+
+
+                                        <a class="nav-link">Logout</a>
+
+                                    }
+                                    else
+                                    {
+                                        <a class="nav-link">Login</a>
+                                    }
+
+
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Elements</a>
-                                    <ul class="list-unstyled py-3 elements">
-                                        <li class=""><a class="px-1" href="">Element 1</a></li>
-                                        <li class=""><a class="px-1" href="">Element 2</a></li>
-                                        <li class="element">
-                                            <i class="fas fa-chevron-right fa-sm mr-5"></i>
-                                            <a class="px-1" href="">Element 3</a>
-                                            <ul class="list-unstyled py-3">
-                                                <li class=""><a class="px-3" href="">Element 1</a></li>
-                                                <li class=""><a class="px-3" href="">Element 2</a></li>
-                                                <li class=""><a class="px-3" href="">Element 3</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                       
                                 </li>
                                 <li class="nav-item my-auto search">
                                     <i class="fas fa-search" id="search"></i>

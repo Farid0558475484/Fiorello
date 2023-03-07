@@ -5,8 +5,10 @@ namespace FiorelloProject.Models
 {
 	public class AppUser:IdentityUser
 	{
-		public string Fulname { get; set; }
+        
 
-	}
+        public string Fulname { get; set; }
+
+    }
 }
 
