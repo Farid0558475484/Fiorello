@@ -1,12 +1,13 @@
 ﻿using System;
 using FiorelloProject.Models;
 using FiorelloProject.Models.Demo;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 //using FiorelloProject.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloProject.DAL
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {

@@ -1,11 +1,12 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity;
+
 namespace FiorelloProject.Models
 {
-	public class AppUser
+	public class AppUser:IdentityUser
 	{
-		public AppUser()
-		{
-		}
+		public string Fulname { get; set; }
+
 	}
 }
 

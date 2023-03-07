@@ -580,3 +580,4 @@
 /Users/xamyak/Desktop/Fiorello/FiorelloProject/obj/Release/net6.0/FiorelloProject.pdb
 /Users/xamyak/Desktop/Fiorello/FiorelloProject/obj/Release/net6.0/FiorelloProject.genruntimeconfig.cache
 /Users/xamyak/Desktop/Fiorello/FiorelloProject/obj/Release/net6.0/ref/FiorelloProject.dll
+/Users/xamyak/Desktop/Fiorello/FiorelloProject/bin/Release/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
