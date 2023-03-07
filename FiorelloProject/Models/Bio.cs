@@ -8,6 +8,7 @@ namespace FiorelloProject.Models
         public string? Facebook { get; set; }
         public string? Instagram { get; set; }
         public string? AuthorName { get; set; }
+        
     }
 }
 
