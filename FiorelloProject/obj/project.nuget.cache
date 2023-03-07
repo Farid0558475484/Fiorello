@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7PPqJAadWL7FlpVwH+AcIxF1LUCTeA7SlpqNnHqY0qpyY/Zs1Y1HP8qDCnPw7NxiLR10LUGoCPZcf53lNOFU8Q==",
+  "dgSpecHash": "uGBExs3TDJBMAh2wBcqWTjjbOomjIEzdTvsbK6lqNARY30FqUQLBigCj4vM9j4z0tWX6zF6M7PCDVhw57K2eoA==",
   "success": true,
   "projectFilePath": "/Users/xamyak/Desktop/Fiorello/FiorelloProject/FiorelloProject.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,9 @@
     "/Users/xamyak/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/messagepackanalyzer/2.1.152/messagepackanalyzer.2.1.152.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.0/microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.0/microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.0/microsoft.aspnetcore.identity.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.0/microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.build/16.9.0/microsoft.build.16.9.0.nupkg.sha512",
@@ -49,6 +52,8 @@
     "/Users/xamyak/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.extensions.identity.core/6.0.0/microsoft.extensions.identity.core.6.0.0.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.extensions.identity.stores/6.0.0/microsoft.extensions.identity.stores.6.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/xamyak/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
