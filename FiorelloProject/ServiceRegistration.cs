@@ -1,5 +1,6 @@
 ﻿using System;
 using FiorelloProject.DAL;
+using FiorelloProject.Helpers;
 using FiorelloProject.Models;
 using FiorelloProject.Services.Basket;
 using Microsoft.AspNetCore.Identity;
@@ -27,7 +28,11 @@ namespace FiorelloProject
 				options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
 				options.Lockout.MaxFailedAccessAttempts = 3;
 
-            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+            })
+
+				.AddEntityFrameworkStores<AppDbContext>()
+				.AddDefaultTokenProviders()
+                .AddErrorDescriber<CustomIdentityErrorDescriber>(); ;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace FiorelloProject.ViewModels
 {
 	public class RegisterVM
-	{
+    {
 
         [Required ,StringLength(100)]
 		public string Fulname { get; set; }
