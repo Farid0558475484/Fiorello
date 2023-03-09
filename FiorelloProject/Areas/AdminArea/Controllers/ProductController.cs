@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FiorelloProject.DAL;
 using FiorelloProject.Extensions;
+using FiorelloProject.Helpers;
 using FiorelloProject.Models;
 //using FiorelloProject.Migrations;
 using FiorelloProject.ViewModels;
@@ -29,18 +30,26 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
             _env = env;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int page=1, int take=2)
         {
 
-            var products= _appDbContext.Products
+            var products = _appDbContext.Products
                 .Include(p => p.ProductImages)
-                  .Include(p => p.Category)
-                  .ToList()
+                .Include(p => p.Category)
+                .Skip((page-1)*take)
+                .Take(take)
+                .ToList();
+            int pageCount = CalculatePageCount(_appDbContext.Products.ToList(), take);
+            PaginationVM<Product> pagination = new(products, pageCount,page);
 
-
-            return View();
+            return View(pagination);
         }
 
+
+        private int CalculatePageCount(List<Product>products , int take)
+        {
+            return (int)Math.Ceiling((decimal)(products.Count) / take);
+        }
 
  
 
