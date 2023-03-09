@@ -1,40 +1,42 @@
 ﻿<Properties StartupConfiguration="{B0AC9FE5-0AAE-42FC-AAD6-B3C2D211CC38}|Default">
-  <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Areas/AdminArea/Views/Dashboard/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloProject/Views/Account/Login.cshtml">
     <Files>
-      <File FileName="FiorelloProject/Areas/AdminArea/Views/Dashboard/Index.cshtml" Line="1" Column="1" />
+      <File FileName="FiorelloProject/Controllers/AccountController.cs" Line="76" Column="10" />
+      <File FileName="FiorelloProject/Views/Account/Register.cshtml" Line="3" Column="19" />
+      <File FileName="FiorelloProject/ViewModels/RegisterVM.cs" Line="6" Column="25" />
+      <File FileName="FiorelloProject/Views/Shared/Components/Header/Default.cshtml" Line="130" Column="38" />
+      <File FileName="FiorelloProject/ViewComponents/HeaderViewComponent.cs" Line="34" Column="1" />
+      <File FileName="FiorelloProject/Views/Account/Login.cshtml" Line="24" Column="57" />
+      <File FileName="FiorelloProject/ViewModels/LoginVM.cs" Line="16" Column="45" />
+      <File FileName="FiorelloProject/Helpers/CustomIdentityErrorDescriber.cs" Line="14" Column="29" />
+      <File FileName="FiorelloProject/ServiceRegistration.cs" Line="35" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FiorelloProject" expanded="True">
             <Node name="FiorelloProject" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Areas" expanded="True">
-                <Node name="AdminArea" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Models" expanded="True" />
-                  <Node name="Views" expanded="True">
-                    <Node name="Category" expanded="True" />
-                    <Node name="Dashboard" expanded="True">
-                      <Node name="Index.cshtml" selected="True" />
-                    </Node>
-                    <Node name="Shared" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Header" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="DAL" expanded="True" />
-              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.FiorelloProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
