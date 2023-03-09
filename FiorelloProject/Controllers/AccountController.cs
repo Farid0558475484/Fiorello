@@ -15,9 +15,9 @@ namespace FiorelloProject.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        private readonly RoleManager<AppUser> _roleManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<AppUser> roleManager)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -58,7 +58,7 @@ namespace FiorelloProject.Controllers
                 return View(register);
             }
 
-            //await _userManager.AddToRolesAsync(user, RoleEnums.Admin.ToString());
+            await _userManager.AddToRoleAsync(user, RoleEnums.Admin.ToString());
 
             return RedirectToAction("login");
         }
