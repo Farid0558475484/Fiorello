@@ -64,10 +64,6 @@ namespace FiorelloProject.Controllers
         }
 
 
-
-
-
-
         public IActionResult Login()
         {
             return View();
@@ -77,7 +73,7 @@ namespace FiorelloProject.Controllers
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
-        public async Task<IActionResult> Login(LoginVM login)
+        public async Task<IActionResult> Login(LoginVM login, string ReturnUrl)
         {
 
             if (!ModelState.IsValid) return View();
@@ -105,6 +101,21 @@ namespace FiorelloProject.Controllers
                 ModelState.AddModelError("", "Username,Email or password invalid");
                 return View(login);
             }
+
+
+
+            //if (await _userManager.IsInRoleAsync(user, RoleEnums.Admin.ToString()))
+            //{
+
+
+            //    return RedirectToAction("index", "dashboard", new { Area = "AdminArea" });
+            //}
+
+            if (ReturnUrl!=null)
+            {
+                return Redirect(ReturnUrl);
+            }
+
 
             await _signInManager.SignInAsync(user, true);
 

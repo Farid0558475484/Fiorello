@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore;
 namespace FiorelloProject.Areas.AdminArea.Controllers
 {
     [Area("AdminArea")]
-    [Authorize]
+    //[Authorize]
     public class ProductController : Controller
     {
 
@@ -31,11 +31,14 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
         public IActionResult Index()
         {
-            return View(_appDbContext.Products
-                .Include(p=>p.ProductImages)
+
+            var products= _appDbContext.Products
+                .Include(p => p.ProductImages)
                   .Include(p => p.Category)
                   .ToList()
-                );
+
+
+            return View();
         }
 
 

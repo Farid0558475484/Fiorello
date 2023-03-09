@@ -3,9 +3,9 @@ namespace FiorelloProject.Helpers
 {
 	public enum RoleEnums
 	{
-        //Admin,
-        //SuperAdmin,
-        //Member
+        Admin,
+        SuperAdmin,
+        Member
     }
 }
 

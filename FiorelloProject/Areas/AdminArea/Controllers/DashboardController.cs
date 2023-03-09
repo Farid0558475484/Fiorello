@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FiorelloProject.Areas.AdminArea.Controllers
 {
     [Area("AdminArea")]
-    [Authorize (Roles="Admin,Member")]
+    //[Authorize (Roles="Admin,Member")]
 
     public class DashboardController : Controller
     {
