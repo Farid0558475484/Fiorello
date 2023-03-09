@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FiorelloProject.Helpers;
 using FiorelloProject.Models;
 using FiorelloProject.ViewModels;
 using Microsoft.AspNetCore.Identity;
@@ -57,7 +58,7 @@ namespace FiorelloProject.Controllers
                 return View(register);
             }
 
-      
+            //await _userManager.AddToRolesAsync(user, RoleEnums.Admin.ToString());
 
             return RedirectToAction("login");
         }
@@ -125,11 +126,19 @@ namespace FiorelloProject.Controllers
 
 
 
-        public async Task<IActionResult> CreateRole()
-        {
-            await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
-            await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
-        }
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    foreach (var item in Enum.GetValues(typeof(RoleEnums)))
+        //    {
+
+        //        if (!await _roleManager.RoleExistsAsync(item.ToString()))
+        //        {
+        //            await _roleManager.CreateAsync(new IdentityRole { Name = item.ToString() });
+        //        }
+
+        //    }
+        //    return Content("role added");
+        //}
 
     }
 }

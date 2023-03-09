@@ -7,6 +7,7 @@ using FiorelloProject.Extensions;
 using FiorelloProject.Models;
 //using FiorelloProject.Migrations;
 using FiorelloProject.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 namespace FiorelloProject.Areas.AdminArea.Controllers
 {
     [Area("AdminArea")]
+    [Authorize]
     public class ProductController : Controller
     {
 
@@ -21,9 +23,10 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly IWebHostEnvironment _env;
 
-        public ProductController(AppDbContext appDbContext)
+        public ProductController(AppDbContext appDbContext, IWebHostEnvironment env)
         {
             _appDbContext = appDbContext;
+            _env = env;
         }
 
         public IActionResult Index()
@@ -35,6 +38,8 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
                 );
         }
 
+
+ 
 
         public IActionResult Create()
         {
