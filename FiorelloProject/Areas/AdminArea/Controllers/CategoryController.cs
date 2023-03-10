@@ -13,6 +13,7 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 {
     
     [Area("AdminArea")]
+    
 
     
     public class CategoryController : Controller
@@ -124,6 +125,9 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
 
             return RedirectToAction("Index");
         }
+
+       
+       
 
       
 

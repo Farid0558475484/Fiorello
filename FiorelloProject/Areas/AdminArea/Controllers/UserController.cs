@@ -25,5 +25,15 @@ namespace FiorelloProject.Areas.AdminArea.Controllers
         {
             return View(_userManager.Users.ToList());
         }
+
+       
+
+
+
+
+
+
+
+
     }
 }
